@@ -1,0 +1,125 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f4b835;
+    color: white;
+    padding: 30px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-items,
+.right-items {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.header-link {
+    font-size: 15px;
+}
+
+.red-text {
+    color: red; 
+    font-size: 15px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.second-tab {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.tab-content {
+    display: flex;
+    align-items: center;
+}
+
+.tab-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.tab-text {
+    font-size: 32px;
+    color: white;
+}
+
+.dotnet {
+    color: rgb(188, 168, 39);
+}
+.search-container {
+    display: aline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    height: 30vh;
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20vh auto;
+    padding: 20px;
+}
+.search-description {
+    font-size: 18px;
+    color: white;
+    margin-left: 170px; 
+}
+.search-container input[type="text"] {
+    width: 34%;
+    padding: 10px;
+    margin-left: 90px;
+    border: none;
+    background-color: white;
+    color: white;
+}
+.search-container input[type="text"]:last-child {
+    margin-right: 90px;
+}
+.search-button img {
+    width: 31px; 
+    height: 31px;
+    vertical-align: middle;
+}
+.search-container input[type="text"]:last-child {
+    margin-right: 0;
+}
